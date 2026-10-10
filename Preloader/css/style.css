@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: white;
+}
+#container
+{
+    width: 100;
+    height: 100px;
+    position: relative;
+    margin: 100px auto;
+    z-index: 100;
+}
+.points 
+{
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+}
+.point_a
+{
+    top: 0; left: 0;
+    background-color: #3eb991;
+}
+.point_b
+{
+    top: 0; right: 0;
+    background-color: #6ecadc;
+}
+.point_c
+{
+    bottom: 0; right: 0;
+    background-color: #e9a820;
+}
+.point_d
+{
+    bottom: 0; left: 0;
+    background-color: #e01563;
+}

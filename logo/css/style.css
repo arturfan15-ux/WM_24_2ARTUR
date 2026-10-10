@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background-color: #FFF8DC;
+}
+#logo_container{
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 100px;
+}
+#logo{
+    width: 100px;
+    margin-left: 100px;
+}
+.head{
+    position: relative;
+    height: 40px;
+    background: #bdd73c;
+    border: 2px solid #6fb74d;
+
+    border-radius: 60px 60px 0 0 / 50px 50px 0 0;
+}.ant{
+    width: 2px;
+    height: 25px;
+    background: #bdd73c;
+    border: 2px solid #6fb74d;
+    position: absolute;
+    border-radius: 3px 3px 0 0;
+    border-bottom: 2px solid #bdd73c;
+}
+.ant_left{
+    top: -22px;
+    left: 15px;
+    transform: rotate(-30deg);
+}
+.ant_right{
+    top: -22px;
+    left: 73px;
+    transform: rotate(30deg);
+}
+.lefteye, .righteye{
+    position: absolute;
+    background: #fff;
+    border: 2px solid #6fb74d;
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    border-radius: 10px;
+    z-index: 2;
+}
+.lefteye{
+    left: 15px;
+}
+.righteye{
+    left: 65px;
+}
+.body{
+    overflow: hidden;
+    border: 2px solid #6fd74d;
+    margin-top: 4px;
+    border-radius: 0 0 60px 60px;
+}
+.strip{
+    height: 18px;
+    background: #bdd73c;
+}
+.brown{
+    height: 22px;
+    background: #5a4a42;
+}
+.left_wings .wing1,
+.left_wings .wing2
+{
+    width: 100px;
+    background: #e2e2e3;
+    border: 2px solid #d1d0d1;
+    border-radius: 16px 0 0 16px;
+    position: absolute; 
+}
+.left_wings .wing1
+{
+    height: 35px;
+    top: 48px;
+    left: 0;
+    z-index: -1;
+    opacity: 0.8;
+}
+.left_wings .wing2
+{
+    top: 80px;
+    left: 20px;
+    z-index: -1;opacity: 0.6;
+    height: 25px;
+    transform: rotate(-45deg);
+}
+.right_wings .wing1,
+.right_wings .wing2
+{
+    width: 100px;
+    background: #e2e2e3;
+    border: 2px solid #d1d0d1;
+    border-radius: 0 16px 16px 0;
+    position: absolute; 
+}
+.right_wings .wing1
+{
+    height: 35px;
+    top: 48px;
+    left: 200px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.right_wings .wing2
+{
+    top: 80px;
+    left: 175px;
+    z-index: -1;
+    opacity: 0.6;
+    height: 25px;
+    transform: rotate(45deg);
+}
+.tail{
+    width: 16px;
+    height: 40px;
+    left: 143px;
+    margin-top: -1px;
+    position: absolute;
+    background: #6fb74d;
+}
+.tail_left{
+    width: 8px;
+    height: 40px;
+    background: #fff;float: left;
+    border-top-right-radius: 16px 40px;
+}
+.tail_right{
+    width: 8px;
+    height: 40px;
+    background: #fff;
+    float: left;
+    border-top-left-radius: 16px 40px;
+}
